@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns:th = "http://www.w3.org/1999/xhtml">
+  <head th:replace="_fragments :: head(~{::title})">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="../static/css/me.css">
+  </head>
+  <body>
+    <!-- navigator -->
+    <nav class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
+      <div class="ui container">
+        <div class="ui inverted secondary menu stackable">
+          <h2 class="ui header teal item">Blog</h2>
+          <a href="#" class="m-item  item m-mobile-hide"><i class="home icon"></i>Main page</a>
+          <a href="#" class="item   m-item m-mobile-hide"><i class="idea icon"></i>Catogary</a>
+          <a href="#" class="item   m-item m-mobile-hide"><i class="tags icon"></i>Book Mark</a>
+          <a href="#" class="item  m-item m-mobile-hide"><i class="clone icon"></i>Archives</a>
+          <a href="#" class="item active m-item m-mobile-hide"><i class="info icon"></i>About me</a>
+
+          <div class="right item m-item m-mobile-hide">
+            <div class="ui input icon m-opacity-mini ">
+              <input type="text" placeholder="Search..." name="" value="">
+              <i class="search icon"></i>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      <a href="#" class="ui toggle black icon button m-top-right m-mobile-show">
+        <i class="sidebar icon"></i>
+      </a>
+
+
+    </nav>
+
+
+
+    <!-- main content -->
+    <div class="m-padded-tb-big m-container-small">
+        <div class="ui container">
+          <div class="ui stackable grid">
+            <!-- left image -->
+             <div class="eleven wide column">
+               <div class="ui segment">
+                     <img src="https://picsum.photos/800/650?image=1003" alt="" class="ui rounded image">
+               </div>
+
+             </div>
+             <!-- right infor -->
+             <div class="five wide column">
+               <!-- About me -->
+               <div class="ui top attached segment">
+                 <div class="ui header">About Me</div>
+               </div>
+               <!-- personal info-->
+               <div class="ui attached segment">
+                 <p class="m-text-thin">Hello I am larry, and I am whatever you need me to be.</p>
+                 <p class="m-text-thin">Hi! larry, I am Siri, I can not understand you (- -!)</p>
+               </div>
+               <!-- Personal Mark -->
+               <div class="ui attached segment">
+                  <div class="ui orange basic left pointing label m-margin-tb-tiny">Programming</div>
+                  <div class="ui orange basic left pointing label m-margin-tb-tiny">Gymming</div>
+                  <div class="ui orange basic left pointing label m-margin-tb-tiny">Thinking</div>
+                  <div class="ui orange basic left pointing label m-margin-tb-tiny">Tennis</div>
+               </div>
+               <!-- Tech Mark -->
+               <div class="ui attached segment">
+                 <div class="ui teal basic left pointing label m-margin-tb-tiny">Java</div>
+                 <div class="ui teal basic left pointing label m-margin-tb-tiny">JavaScript</div>
+                 <div class="ui teal basic left pointing label m-margin-tb-tiny">Nodejs</div>
+                 <div class="ui teal basic left pointing label m-margin-tb-tiny">React</div>
+                 <div class="ui teal basic left pointing label m-margin-tb-tiny">Spring boot</div>
+                 <div class="ui teal basic left pointing label m-margin-tb-tiny">MySQL</div>
+               </div>
+               <!-- Methed to contact me  -->
+               <div class="ui attached segment">
+                  <a href="#" class="ui circular icon button"><i class="github icon"></i></a>
+                  <a href="#" class="ui wechat circular icon button"><i class="wechat icon"></i></a>
+                  <a href="#" class="ui qq circular icon button" data-content="853020510" data-position="bottom center"><i class="qq icon"></i></a>
+                  <a href="#" class="ui circular icon button"><i class="facebook icon"></i></a>
+                  <a href="#" class="ui circular icon button"><i class="instagram icon"></i></a>
+               </div>
+
+
+               <div class="ui wechatQR flowing popup transition hidden">
+                  <img src="../static/images/code.jpg" alt="" class="ui rounded image" style="width:140px">
+               </div>
+             </div>
+          </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- footer -->
+     <footer class ="ui inverted segment vertical m-padded-tb-massive">
+      <div class="ui center aligned container m-margin-tb-mini">
+        <div class="ui divided inverted stackable grid">
+
+          <div class="two wide column">
+            <div class="ui inverted link list">
+              <div class="item">
+                <img src="../static/images/code.jpg" class="ui rounded image" alt="" style="width:110px">
+
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="three wide column">
+
+              <h4 class="ui inverted header m-text-thin m-text-spaced">The lastest Blogs</h4>
+              <div class="ui inverted link list">
+                <a href="#" class="item">User story</a>
+                <a href="#" class="item">Why do I love Java?</a>
+                <a href="#" class="item">(- -) & (* *)</a>
+
+              </div>
+
+          </div>
+
+
+
+          <div class="four wide column">
+            <h4 class="ui inverted header m-text-thin m-text-spaced">Contact Me</h4>
+            <div class="ui inverted link list">
+              <a href="#" class="item">Emial: larryliuyang@yahoo.com</a>
+              <a href="#" class="item">We chat: 853020510</a>
+              <a href="#" class="item">Phone: +1 2368628227</a>
+
+            </div>
+          </div>
+
+
+
+
+          <div class="seven wide column">
+            <h4 class="ui inverted header m-text-thin m-text-spaced">Blog</h4>
+            <div class="ui inverted link list">
+              <p class="m-text-thin m-text-spaced m-opacity-mini">This is my own personal Blog, as one of my JS project, including
+                centents about programming, writing, and my doggy!(- -)
+
+              </p>
+
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+        <div class="ui inverted section divider"></div>
+        <p class="m-text-thin m-text-spaced m-opacity-mini">Copyright@2019-2020 Blog Designed by Larry Liu</p>
+
+      </div>
+     </footer>
+
+
+
+
+
+<script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+  <script type = "text/javascript" language = "javascript">
+    $('.toggle').click(function(){
+      $('.m-item').toggleClass('m-mobile-hide')
+    });
+
+    $('.qq').popup();
+
+    $('.wechat').popup({
+      popup: $(".wechatQR"),
+      position:'bottom center'
+    });
+
+
+  </script>
+  </body>
+</html>

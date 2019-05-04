@@ -1,0 +1,6 @@
+2019-01-21 00:35:52.794  INFO 16398 --- [restartedMain] com.larry.blog.BlogApplication           : Starting BlogApplication on LarryliudeMacBook-Air.local with PID 16398 (/Users/larry/Desktop/blog/target/classes started by larry in /Users/larry/Desktop/blog)
+2019-01-21 00:35:52.795  INFO 16398 --- [restartedMain] com.larry.blog.BlogApplication           : The following profiles are active: pro
+2019-01-21 00:35:54.746  INFO 16398 --- [restartedMain] com.larry.blog.BlogApplication           : Started BlogApplication in 12.058 seconds (JVM running for 64.762)
+2019-01-21 00:37:40.652  INFO 16405 --- [restartedMain] com.larry.blog.BlogApplication           : Starting BlogApplication on LarryliudeMacBook-Air.local with PID 16405 (/Users/larry/Desktop/blog/target/classes started by larry in /Users/larry/Desktop/blog)
+2019-01-21 00:37:40.667  INFO 16405 --- [restartedMain] com.larry.blog.BlogApplication           : The following profiles are active: pro
+2019-01-21 00:37:45.710  INFO 16405 --- [restartedMain] com.larry.blog.BlogApplication           : Started BlogApplication in 15.427 seconds (JVM running for 21.317)
